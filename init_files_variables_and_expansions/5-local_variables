@@ -1,2 +1,2 @@
 #!/bin/bash
-declare; printenv; declare -f
+bash -c 'declare; printenv; declare -f'
