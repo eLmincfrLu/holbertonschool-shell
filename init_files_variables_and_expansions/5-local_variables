@@ -1,2 +1,2 @@
 #!/bin/bash
-bash -c 'declare; printenv; declare -f'
+declare -px $(compgen -v) $(compgen -A function)
